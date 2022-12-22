@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+
+@media screen and (max-width:768px){
+    .main {
+        width: 100%;
+
+        .logo {
+            width: 150px;
+            height: 100px;
+        }
+    }
+}
