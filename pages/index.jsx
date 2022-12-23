@@ -1,8 +1,10 @@
 import Head from 'next/head'
-// import Image from 'next/image'
+import Image from 'next/image'
 
-// import Logo from "../public/archtivate.jpeg"
-// import Logo1 from "../public/archtivate-removebg-preview.png"
+import Logo1 from "../public/archtivate-removebg-preview.png"
+import BackImg2 from "../public/HomeLand2.jpg"
+
+
 
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.scss'
@@ -21,10 +23,24 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <NavBar/>
-        {/* <Image
-          src={Logo1}
-          className = {styles.logo}
-        /> */}
+        <div>
+          <div className={styles.overlay}>
+            <Image
+              src = {Logo1}
+              width= {750}
+              height = {560}
+              className={styles.logo}
+            />
+
+          </div>
+          <Image
+              src={BackImg2}
+              className={styles.backG}
+            />
+
+
+        </div>
+
       </main>
     </>
   )

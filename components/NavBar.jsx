@@ -6,13 +6,13 @@ import Image from "next/image"
 const NavBar = () => {
     return ( 
         <div className={Navstyles.main}>
-            <div >
-                <Link href="/web">Archtivate Web</Link>
+            <div className={Navstyles.navItems} >
+                <Link className={Navstyles.Link} href="/web">Developed</Link>
                 <Image
                     src={Logo}
                     className={Navstyles.logo}
                 />
-                <Link href="/posts">Archtivate Blog</Link>
+                <Link className={Navstyles.Link} href="/posts">Broadcast</Link>
             </div>
             
         </div>

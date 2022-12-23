@@ -1,11 +1,45 @@
 .main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
 
     width: 100%;
+
+    position: fixed;
+    top: 0%;
+    z-index: 5;
+
+    .navItems {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 0 50px;
+
+        .logo {
+            width: 160px;
+            height: 110px;
+        }
+
+        .Link {
+            border: 1px solid #787878;
+            padding: 10px 20px;
+            border-radius: 25px;
+
+            text-decoration: none;
+            color: white;
+            font-size:large;
+            z-index: 5;
+
+            transition: background-color 0.5s;
+        }
+
+        .Link:hover {
+            background-color: #110F0F;
+            border: none;
+
+        }
+
+    }
 }
 
 
@@ -13,9 +47,19 @@
     .main {
         width: 100%;
 
-        .logo {
-            width: 150px;
-            height: 100px;
+        .navItems{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .Link {
+                display: none;
+            }
+            .logo {
+                width: 150px;
+                height: 100px;
+            }
         }
+
+
     }
 }
