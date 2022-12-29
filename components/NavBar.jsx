@@ -10,6 +10,7 @@ const NavBar = () => {
                 <Image
                     src={Logo}
                     className={Navstyles.logo}
+                    alt ="navbar logo"
                 />
             </div>
             
