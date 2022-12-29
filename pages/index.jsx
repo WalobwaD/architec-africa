@@ -13,6 +13,13 @@ import gsap from "gsap"
 
 export default function Home() {
 
+  useEffect(
+    ()=> {
+      gsap.fromTo('.logo', {opacity:0, scale:0}, {duration:3, opacity:0.7, scale:1})
+      console.log("opacity changed")
+    },
+  [])
+
   return (
     <>
       <Head>
@@ -25,29 +32,23 @@ export default function Home() {
           integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
           crossorigin="anonymous" referrerpolicy="no-referrer" />
       </Head>
-      {/* <div id='pre-loader'>
-        <i class="fa-solid fa-spinner fa-spin"></i>
-      </div> */}
       <main className={styles.main}>
         <NavBar/>
         <div>
           <div className={styles.overlay}>
             <Image
               src = {Logo1}
-              width= {650}
+              width = {650}
               height = {450}
-              className="logo"
-            />
+              className={styles.logo}
+              />
             <p className={styles.tagline}>African Architecture, <Link className={styles.link} href="/web">developed </Link> and <Link className={styles.link} href="/posts">broadcast</Link> world wide
             </p>
-
           </div>
           <Image
               src={BackImg2}
               className={styles.backG}
             />
-
-
         </div>
 
       </main>

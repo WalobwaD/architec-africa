@@ -1,10 +1,11 @@
 .main {
 
-    width: 100%;
+    width: 100vw;
 
     position: fixed;
     top: 0%;
     z-index: 5;
+    
 
     .navItems {
         display: flex;
@@ -26,12 +27,9 @@
 
 @media screen and (max-width:768px){
     .main {
-        width: 100%;
-
+        overflow-x: hidden;
         .navItems{
-            display: flex;
-            align-items: center;
-            justify-content: center;
+
             
             .logo {
                 width: 150px;

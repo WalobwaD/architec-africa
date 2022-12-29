@@ -2,15 +2,14 @@ $font-family1: 'Amatic SC', cursive;
 $font-family2: 'Hanken Grotesk', sans-serif;
 $font-family3: 'Pacifico', cursive;
 .main {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: $font-family1;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
     .overlay {
         position: absolute;
-        max-width: 100%;
+        width: 100%;
+        max-width: 100vw;
         max-height: 100vh;
         top: 0;
         left: 0;
@@ -28,12 +27,16 @@ $font-family3: 'Pacifico', cursive;
 
         .logo {
             z-index: 3;
+            display: flex;
+            align-items:center ;
+            justify-content: center;
         }
 
         .tagline {
             font-size: 1.4rem;
             .link {
                 text-decoration: none;
+                color: aqua;
             }
         }
     }
@@ -42,7 +45,8 @@ $font-family3: 'Pacifico', cursive;
         z-index: 0;
         position: absolute;
         top: 0%;
-        max-width:100%;
+        width: 100%;
+        max-width:100vw;
         max-height: 100vh;
     }
 
@@ -57,7 +61,7 @@ $font-family3: 'Pacifico', cursive;
     }
 
     .tagline {
-        font-size: 0.7rem;
+        font-size: x-small;
     }
 
 }
