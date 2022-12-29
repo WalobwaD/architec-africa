@@ -5,7 +5,7 @@ import Link from "next/link"
 import Image from "next/image"
 const NavBar = () => {
     return ( 
-        <div className={Navstyles.main}>
+        <div className={Navstyles.flexContainer}>
             <div className={Navstyles.navItems} >
                 <Image
                     src={Logo}

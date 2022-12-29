@@ -15,7 +15,7 @@ export default function Home() {
 
   useEffect(
     ()=> {
-      gsap.fromTo('.logo', {opacity:0, scale:0}, {duration:3, opacity:0.7, scale:1})
+      gsap.fromTo('.logo', {opacity:0, scale:0}, {duration:3, opacity:0.9, scale:1})
       console.log("opacity changed")
     },
   [])
@@ -36,12 +36,12 @@ export default function Home() {
         <NavBar/>
         <div>
           <div className={styles.overlay}>
-            <Image
-              src = {Logo1}
-              width = {650}
-              height = {450}
-              className={styles.logo}
-              />
+            <div className='logo'>
+              <Image
+                src = {Logo1}
+                className={styles.logo}
+                />
+            </div>
             <p className={styles.tagline}>African Architecture, <Link className={styles.link} href="/web">developed </Link> and <Link className={styles.link} href="/posts">broadcast</Link> world wide
             </p>
           </div>
