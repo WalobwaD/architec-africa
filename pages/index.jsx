@@ -33,9 +33,9 @@ export default function Home() {
       <main className={styles.main}>
         <NavBar/>
         <section className={styles.vidSec}>
-        <video className={styles.vid}controls>
-        Your browser does not support HTML5 videos!
-        </video>
+          <video className={styles.vid}controls>
+            Your browser does not support HTML5 videos!
+          </video>
         </section>
 
         <About/>
