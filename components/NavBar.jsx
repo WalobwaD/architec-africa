@@ -7,11 +7,13 @@ const NavBar = () => {
     return ( 
         <div className={Navstyles.flexContainer}>
             <div className={Navstyles.navItems} >
+                <Link href="/posts">POSTS</Link>
                 <Image
                     src={Logo}
                     className={Navstyles.logo}
                     alt ="navbar logo"
                 />
+                <Link href="/web">WEB</Link>
             </div>
             
         </div>

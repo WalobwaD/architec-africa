@@ -6,6 +6,8 @@ import BackImg2 from "../public/HomeLand2.jpg"
 
 import styles from '../styles/Home.module.scss'
 import NavBar from '../components/NavBar'
+import About from "../components/About"
+import Pictures from '../components/Pictures'
 import Link from 'next/link'
 
 import {useEffect} from "react"
@@ -13,12 +15,12 @@ import gsap from "gsap"
 
 export default function Home() {
 
-  useEffect(
-    ()=> {
-      gsap.fromTo('.logo', {opacity:0, scale:0}, {duration:3, opacity:0.9, scale:1})
-      console.log("opacity changed")
-    },
-  [])
+  // useEffect(
+  //   ()=> {
+  //     gsap.fromTo('.logo', {opacity:0, scale:0}, {duration:3, opacity:0.9, scale:1})
+  //     console.log("opacity changed")
+  //   },
+  // [])
 
   return (
     <>
@@ -30,25 +32,15 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <NavBar/>
-        <div>
-          <div className={styles.overlay}>
-            <div className='logo'>
-              <Image
-                src = {Logo1}
-                alt = "logo"
-                className={styles.logo}
-                priority
-                />
-            </div>
-            <p className={styles.tagline}>African Architecture, <Link className={styles.link} href="/web">developed </Link> and <Link className={styles.link} href="/posts">broadcast</Link> world wide
-            </p>
-          </div>
-          <Image
-              src={BackImg2}
-              className={styles.backG}
-              alt = "backGround image"
-            />
-        </div>
+        <section className={styles.vidSec}>
+        <video className={styles.vid}controls>
+        Your browser does not support HTML5 videos!
+        </video>
+        </section>
+
+        <About/>
+        <Pictures/>
+
 
       </main>
     </>

@@ -2,73 +2,32 @@ $font-family1: 'Amatic SC', cursive;
 $font-family2: 'Hanken Grotesk', sans-serif;
 $font-family3: 'Pacifico', cursive;
 .main {
-
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 90vh;
-
-
-    .overlay {
-        position: absolute;
+    // height: 90vh;
+    .vidSec {
         width: 100%;
-        height: 100vh;
-        // max-width: 100vw;
-        // max-height: 100vh;
-        top: 0;
-        left: 0;
+        height: 83vh;
+        position:absolute;
+        top: 17vh;
+        z-index: 0;
 
-        background-color: rgba(0,0,0,0.9);
-        z-index: 1;
-
+        padding: 60px;
+        
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
 
-        color: white;
-
-        .logo {
-            z-index: 3;
-            display: flex;
-            align-items:center ;
-            justify-content: center;
-        }
-    
-        .tagline {
-            font-size: 1.2rem;
-            .link {
-                text-decoration: none;
-                color: aqua;
-            }
+        .vid {
+            width: 100%;
+            height: 450px;            
+            // margin:20px 0 0 0;
         }
 
-
     }
-
-            
-    .backG {
-        z-index: 0;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        max-width:100vw;
-        height: 100vh;
-        max-height: 100vh;
-    }
-
-    
 }
+
 
 @media screen and (max-width:768px){
 
-    .logo {
-        width: 200px;
-        height: 160px;
-    }
-
-    .tagline {
-        padding: 0 10px 0 10px;
-        text-align: center;
-    }
 
 }
