@@ -6,7 +6,7 @@ import BackImg2 from "../public/HomeLand2.jpg"
 
 import styles from '../styles/Home.module.scss'
 import NavBar from '../components/NavBar'
-import About from "../components/About"
+import About from "../components/about/About"
 import Pictures from '../components/Pictures'
 import Brands from "../components/Brands/Brands"
 import FooterComp from "../components/footer/Footer"
