@@ -7,13 +7,13 @@ const NavBar = () => {
     return ( 
         <div className={Navstyles.flexContainer}>
             <div className={Navstyles.navItems} >
-                <Link href="/posts">POST</Link>
+                <div><em>V </em><Link className={Navstyles.linkP} href="/posts">POST</Link></div>
                 <Image
                     src={Logo}
                     className={Navstyles.logo}
                     alt ="navbar logo"
                 />
-                <Link href="/web">WEB</Link>
+                <div><em>V </em><Link className={Navstyles.linkW} href="/web">WEB</Link></div>
             </div>
             
         </div>

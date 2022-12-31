@@ -20,6 +20,19 @@
         justify-content: space-between;
         margin: 0 100px 0 80px;
 
+        .linkW {
+            transition: 0.3s;
+        }
+        .linkP {
+            transition: 0.3s;
+        }
+        .linkW:hover {
+            color:aqua;
+        }
+        .linkP:hover {
+            color:burlywood;
+        }
+
         .logo {
             width:inherit;
             height:inherit;
