@@ -21,3 +21,17 @@
     }
 
 }
+
+@media screen and (max-width:768px){
+    .contactCont {
+        .content {
+            .title {
+                font-size: 0.9rem;
+            }
+
+            .hr {
+                width: 30px;
+            }
+        }
+    }
+}
