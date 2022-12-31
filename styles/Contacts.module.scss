@@ -1,0 +1,23 @@
+.contactCont {
+    height: 20vh;
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .title {
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+
+        .hr {
+            color: white;
+            background-color: white;
+            width: 60px;
+            height: 2px;
+            
+        }
+    }
+
+}

@@ -8,10 +8,13 @@ import styles from '../styles/Home.module.scss'
 import NavBar from '../components/NavBar'
 import About from "../components/About"
 import Pictures from '../components/Pictures'
+import Brands from "../components/Brands/Brands"
+import FooterComp from "../components/footer/Footer"
 import Link from 'next/link'
 
 import {useEffect} from "react"
 import gsap from "gsap"
+import Footer from '../components/footer/Footer'
 
 export default function Home() {
 
@@ -37,9 +40,10 @@ export default function Home() {
             Your browser does not support HTML5 videos!
           </video>
         </section>
-
         <About/>
         <Pictures/>
+        <Brands />
+        <FooterComp/>
 
 
       </main>

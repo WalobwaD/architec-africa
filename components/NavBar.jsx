@@ -7,7 +7,7 @@ const NavBar = () => {
     return ( 
         <div className={Navstyles.flexContainer}>
             <div className={Navstyles.navItems} >
-                <Link href="/posts">POSTS</Link>
+                <Link href="/posts">POST</Link>
                 <Image
                     src={Logo}
                     className={Navstyles.logo}

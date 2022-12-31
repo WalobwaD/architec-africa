@@ -3,10 +3,20 @@ import picStyles from "../styles/Pictures.module.scss"
 const Pictures = ()=> {
     return (
         <section className={picStyles.picSec}>
-            {/* <div>
-                <h1>Pictures</h1>
-            </div> */}
-            <section className="text-gray-400 bg-black body-font">
+
+            <div className={picStyles.flexContainer}>
+                <div className={picStyles.content}>
+                    <h1 className={picStyles.title}>Pictures</h1>
+                    <hr className={picStyles.hr}></hr>
+                    {/* <div className={picStyles.cards}>
+                        <div className={picStyles.card}>
+                            Picture
+                        </div>
+                    </div> */}
+                </div>
+
+            </div>
+            {/* <section className="text-gray-400 bg-black body-font">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-wrap -m-4">
                         <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -91,7 +101,7 @@ const Pictures = ()=> {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </section>
 
     )

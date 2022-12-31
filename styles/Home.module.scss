@@ -3,15 +3,16 @@ $font-family2: 'Hanken Grotesk', sans-serif;
 $font-family3: 'Pacifico', cursive;
 .main {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    // height: 90vh;
+
+    display: flex;
+    flex-direction: column;
     .vidSec {
         width: 100%;
         height: 83vh;
-        position:absolute;
-        top: 17vh;
         z-index: 0;
 
-        padding: 60px;
+        // padding: 10px 0 10px 0;
+        margin: 17.7vh 0 0 0;
         
         display: flex;
         align-items: center;
@@ -19,8 +20,7 @@ $font-family3: 'Pacifico', cursive;
 
         .vid {
             width: 100%;
-            height: 450px;            
-            // margin:20px 0 0 0;
+            height:550px;       
         }
 
     }

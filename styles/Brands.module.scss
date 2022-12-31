@@ -1,6 +1,6 @@
-.picSec {
-    height: 83vh;
+.brandSec {
     width: 100%;
+    height: 83vh;
 
     background-color: black;
     color: white;
@@ -18,6 +18,8 @@
             justify-content: center;
             flex-direction: column;
 
+            width: 60%;
+
             .title {
                 font-weight: 900;
                 font-size: 2rem;
@@ -31,8 +33,15 @@
                 height: 2px;
                 
             }
+
+            .text {
+                line-height: 1.5rem;
+                margin: 20px 0 0 0;
+                text-align: center;
+            }
         }
 
 
     }
+    
 }
