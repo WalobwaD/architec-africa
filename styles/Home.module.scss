@@ -28,6 +28,16 @@ $font-family3: 'Pacifico', cursive;
 
 
 @media screen and (max-width:768px){
+    .main {
+        overflow: hidden;
+        .vidSec {
+
+            .vid {
+                height: 400px;
+
+            }
+        }
+    }
 
 
 }
