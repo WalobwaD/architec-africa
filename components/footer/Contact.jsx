@@ -1,4 +1,4 @@
-import ContactStyles from "../../styles/Contacts.module.scss"
+import ContactStyles from "../../styles/HomePage/Footer/Contacts.module.scss"
 const Contacts = ()=> {
     return (
         <div className={ContactStyles.contactCont}>

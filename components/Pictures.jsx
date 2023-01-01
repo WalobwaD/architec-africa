@@ -1,4 +1,4 @@
-import picStyles from "../styles/Pictures.module.scss"
+import picStyles from "../styles/HomePage/Pictures.module.scss"
 
 const Pictures = ()=> {
     return (

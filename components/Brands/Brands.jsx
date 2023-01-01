@@ -1,4 +1,7 @@
-import BrandStyles from "../../styles/Brands.module.scss"
+import ArchPost from "./ArchPost"
+import ArchWeb from "./ArchWeb"
+import BrandStyles from "../../styles/HomePage/Brands/Brands.module.scss"
+
 const Brands = ()=> {
     return (
         <section className={BrandStyles.brandSec}>
@@ -10,6 +13,10 @@ const Brands = ()=> {
                         here to surprise, empower and entertain. We provide exclusive access and we are trusted to lead the way. From the
                         iconic brands we cultivate to the world-leading talents we engage, we are committed to the best of the best
                     </p>
+                    <div className={BrandStyles.brands}>
+                        <ArchPost />
+                        <ArchWeb /> 
+                    </div>
 
                 </div>
             </div>

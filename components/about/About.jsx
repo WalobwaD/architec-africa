@@ -1,4 +1,4 @@
-import AboutStyles from "../../styles/About.module.scss"
+import AboutStyles from "../../styles/HomePage/About.module.scss"
 import Web from "./Post";
 import Post from "./Web";
 const About = () => {

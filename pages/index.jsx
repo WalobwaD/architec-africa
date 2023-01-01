@@ -2,9 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import Logo1 from "../public/archtivate.png"
-import BackImg2 from "../public/HomeLand2.jpg"
 
-import styles from '../styles/Home.module.scss'
+import styles from '../styles/HomePage/Home.module.scss'
 import NavBar from '../components/NavBar'
 import About from "../components/about/About"
 import Pictures from '../components/Pictures'

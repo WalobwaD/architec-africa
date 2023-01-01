@@ -1,4 +1,4 @@
-import Navstyles from "../styles/NavBar.module.scss"
+import Navstyles from "../styles/HomePage/NavBar.module.scss"
 
 import Logo from "../public/archtivate.png"
 import Link from "next/link"

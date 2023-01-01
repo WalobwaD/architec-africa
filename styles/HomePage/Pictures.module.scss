@@ -1,24 +1,22 @@
-.brandSec {
+.picSec {
     width: 100%;
-    height: 83vh;
-
     background-color: black;
     color: white;
 
-    padding: 40px 0 0 0 ;
+    padding: 40px 0 200px 0 ;
+    
 
     .flexContainer {
         display: flex;
         align-items: center;
         justify-content: center;
 
+
         .content {
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-
-            width: 60%;
 
             .title {
                 font-weight: 900;
@@ -34,14 +32,28 @@
                 
             }
 
-            .text {
-                line-height: 1.5rem;
-                margin: 20px 0 0 0;
-                text-align: center;
+            .cards {
+
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+
+                .card {
+                    width: 400px;
+                    height: 250px;
+                    margin: 40px 10px 0 10px;
+                    border-radius: 3px;
+
+                    background-color: gray;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
             }
         }
 
 
     }
-    
 }

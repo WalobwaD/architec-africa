@@ -1,4 +1,4 @@
-import FootStyles from "../../styles/FootStyles.module.scss" 
+import FootStyles from "../../styles/HomePage/Footer/FootStyles.module.scss" 
 import Details from "./Comm";
 import Contacts from "./Contact";
 const Footer = ()=> {
