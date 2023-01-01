@@ -1,22 +1,24 @@
 .picSec {
-    height: 83vh;
     width: 100%;
-
     background-color: black;
     color: white;
 
-    padding: 40px 0 0 0 ;
+    padding: 40px 0 200px 0 ;
+    
 
     .flexContainer {
         display: flex;
         align-items: center;
         justify-content: center;
 
+
         .content {
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
+
+
 
             .title {
                 font-weight: 900;
@@ -30,6 +32,27 @@
                 width: 60px;
                 height: 2px;
                 
+            }
+
+            .cards {
+
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+
+                .card {
+                    width: 400px;
+                    height: 250px;
+                    margin: 40px 10px 0 10px;
+                    border-radius: 3px;
+
+                    background-color: gray;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
             }
         }
 
