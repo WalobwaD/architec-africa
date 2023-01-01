@@ -26,9 +26,11 @@
 
         .linkW {
             transition: 0.3s;
+            font-size: 0.8rem;
         }
         .linkP {
             transition: 0.3s;
+            font-size: 0.8rem;
         }
         .linkW:hover {
             color:aqua;
@@ -39,7 +41,9 @@
 
         .logo {
             width:inherit;
-            height:inherit;
+            height:20vh;
+
+            padding: 10px 0 0 0 ;
 
         }
     }
