@@ -1,9 +1,7 @@
 .picSec {
     width: 100%;
-    background-color: black;
-    color: white;
 
-    padding: 40px 0 200px 0 ;
+    padding: 10px 0 0 0 ;
     
 
     .flexContainer {
@@ -40,10 +38,9 @@
                 justify-content: center;
 
                 .card {
-                    width: 400px;
-                    height: 250px;
-                    margin: 40px 10px 0 10px;
-                    border-radius: 3px;
+                    min-width:670px;
+                    height: 350px;
+                    margin: 40px 0 0 0;
 
                     background-color: gray;
 

@@ -15,18 +15,6 @@ const Pictures = ()=> {
                         <div className={picStyles.card}>
                             Picture
                         </div>
-                        <div className={picStyles.card}>
-                            Picture
-                        </div>
-                        <div className={picStyles.card}>
-                            Picture
-                        </div>
-                        <div className={picStyles.card}>
-                            Picture
-                        </div>
-                        <div className={picStyles.card}>
-                            Picture
-                        </div>
                     </div>
                 </div>
 
