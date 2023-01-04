@@ -1,28 +1,14 @@
 import Head from 'next/head'
-import Image from 'next/image'
-
-import Logo1 from "../public/archtivate.png"
-
+import {motion} from "framer-motion"
 import styles from '../styles/HomePage/Home.module.scss'
 import NavBar from '../components/NavBar'
 import About from "../components/about/About"
 import Pictures from '../components/Pictures'
 import Brands from "../components/Brands/Brands"
 import FooterComp from "../components/footer/Footer"
-import Link from 'next/link'
 
-import {useEffect} from "react"
-import gsap from "gsap"
-import Footer from '../components/footer/Footer'
 
 export default function Home() {
-
-  // useEffect(
-  //   ()=> {
-  //     gsap.fromTo('.logo', {opacity:0, scale:0}, {duration:3, opacity:0.9, scale:1})
-  //     console.log("opacity changed")
-  //   },
-  // [])
 
   return (
     <>
@@ -33,7 +19,7 @@ export default function Home() {
         <link rel="icon" href="/archtivate.jpeg" />
       </Head>
       <main className={styles.main}>
-        <NavBar/>
+        <NavBar motion={motion} />
         <section className={styles.vidSec}>
           <video className={styles.vid}controls>
             Your browser does not support HTML5 videos!
