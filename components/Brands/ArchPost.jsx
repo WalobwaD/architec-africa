@@ -6,6 +6,7 @@ const ArchPost = ()=> {
         <div className={styles.post}>
             <Image
                 src= {Logo}
+                alt= "brandPost"
             />
         </div>
     )

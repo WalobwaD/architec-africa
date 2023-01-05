@@ -57,14 +57,14 @@ const Pictures = ()=> {
                     </div> */}
                     <div className={styles.cards}>
                         <Carousel>
-                            <CarouselItem><Image className={styles.img} src={pic8}/></CarouselItem>
-                            <CarouselItem><Image className={styles.img} src={pic7}/></CarouselItem>
-                            <CarouselItem><Image className={styles.img} src={pic6}/></CarouselItem>
-                            <CarouselItem><Image className={styles.img} src={pic5}/></CarouselItem>
-                            <CarouselItem><Image className={styles.img} src={pic4}/></CarouselItem>
-                            <CarouselItem><Image className={styles.img} src={pic3}/></CarouselItem>
-                            <CarouselItem><Image className={styles.img} src={pic2}/></CarouselItem>
-                            <CarouselItem><Image className={styles.img} src={pic1}/></CarouselItem>
+                            <CarouselItem><Image alt="pictures" className={styles.img} src={pic8}/></CarouselItem>
+                            <CarouselItem><Image alt="pictures" className={styles.img} src={pic7}/></CarouselItem>
+                            <CarouselItem><Image alt="pictures" className={styles.img} src={pic6}/></CarouselItem>
+                            <CarouselItem><Image alt="pictures" className={styles.img} src={pic5}/></CarouselItem>
+                            <CarouselItem><Image alt="pictures" className={styles.img} src={pic4}/></CarouselItem>
+                            <CarouselItem><Image alt="pictures" className={styles.img} src={pic3}/></CarouselItem>
+                            <CarouselItem><Image alt="pictures" className={styles.img} src={pic2}/></CarouselItem>
+                            <CarouselItem><Image alt="pictures" className={styles.img} src={pic1}/></CarouselItem>
                             {/* <Image
                                 src={pic8}
                                 className={styles.card}

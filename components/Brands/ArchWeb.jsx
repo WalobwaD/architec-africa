@@ -6,6 +6,7 @@ const ArchWeb = ()=> {
         <div className={styles.web}>
              <Image
                 src= {Logo}
+                alt = "brandWeb"
             />
         </div>
     )
