@@ -17,7 +17,6 @@ const NavBar = ({motion}) => {
     if (typeof window !== 'undefined') {
         // this code will only be executed in the browser
         window.addEventListener('scroll', changeBackGround)
-
         console.log(window)
       }
 
