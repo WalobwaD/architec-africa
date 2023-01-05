@@ -21,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/archtivate.jpeg" />
       </Head>
       <main className={styles.main}>
-        <NavBar motion={motion} />
+        <NavBar motion={motion}/>
         <section className={styles.vidSec}>
           <video className={styles.vid}controls>
             Your browser does not support HTML5 videos!
