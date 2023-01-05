@@ -1,7 +1,7 @@
 .picSec {
     width: 100%;
 
-    padding: 10px 0 0 0 ;
+    padding: 50px 0 0 0 ;
     
 
     .flexContainer {
@@ -38,26 +38,13 @@
                 justify-content: center;
 
                 width: 100vw;
-
-                .card {
-                    width:670px;
-                    height: 350px;
-                    margin: 40px 0 0 0;
-
-                    object-fit: cover;
-
-                    background-color: gray;
-
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
+                margin: 40px 10px 0 0;
 
                     .img {
-                        width: inherit;
-                        height: inherit;
+                        width: 680px;
+                        height: 650px;
                         object-fit:cover;
                     }
-                }
             }
         }
 

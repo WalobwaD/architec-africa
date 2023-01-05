@@ -5,7 +5,7 @@ import styles from '../styles/HomePage/Home.module.scss'
 
 import NavBar from '../components/NavBar'
 import About from "../components/about/About"
-import Pictures from '../components/Pictures'
+import Pictures from '../components/pictures/Pictures'
 import Brands from "../components/Brands/Brands"
 import FooterComp from "../components/footer/Footer"
 
