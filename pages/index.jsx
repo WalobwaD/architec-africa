@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import {motion} from "framer-motion"
+
 import styles from '../styles/HomePage/Home.module.scss'
+
 import NavBar from '../components/NavBar'
 import About from "../components/about/About"
 import Pictures from '../components/Pictures'

@@ -37,10 +37,14 @@
                 align-items: center;
                 justify-content: center;
 
+                width: 100vw;
+
                 .card {
                     width:670px;
                     height: 350px;
                     margin: 40px 0 0 0;
+
+                    object-fit: cover;
 
                     background-color: gray;
 
