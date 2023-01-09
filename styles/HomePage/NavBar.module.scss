@@ -20,6 +20,7 @@
         justify-content: space-between;
         margin: 0 100px 0 80px;
         transition: 0.3s;
+    
 
         .italic {
             font-size: 0.9rem;
@@ -51,8 +52,14 @@
             padding: 10px 0 0 0 ;
 
         }
+
+
     }
 
+    .navItems1 {
+        display: none;
+        transition: 0.3s;
+    }
     
 
 }
@@ -71,47 +78,65 @@
     // overflow-y: hidden;
 
     .navItems {
+        display: none;
+        // height: 10vh;
 
+        // display: flex;
+        // align-items: center;
+        // justify-content:left;
+        // margin: 0 100px 0 80px;
+
+        // .italic {
+        //     font-size: 0.9rem;
+        //     display: none;
+        // }
+
+        // .linkW {
+        //     transition: 0.3s;
+        //     font-size: 0.8rem;
+        //     display: none;
+        // }
+
+        // .linkP {
+        //     transition: 0.3s;
+        //     font-size: 0.8rem;
+        //     display: none;
+        // }
+
+        // .logo {
+        //     width:inherit;
+        //     height:20vh;
+        //     transform: translateX(0);
+        //     padding: 10px 0 0 0 ;
+
+        // }
+
+
+    }
+
+    .navItems1 {
         height: 10vh;
 
         display: flex;
         align-items: center;
-        justify-content:left;
+        justify-content: space-between;
         margin: 0 100px 0 80px;
-
-        .italic {
-            font-size: 0.9rem;
-            display: none;
-        }
-
-        .linkW {
-            transition: 0.3s;
-            font-size: 0.8rem;
-            display: none;
-        }
-
-        .linkP {
-            transition: 0.3s;
-            font-size: 0.8rem;
-            display: none;
-        }
-
-        .linkW:hover {
-            color:aqua;
-            display: none;
-        }
-
-        .linkP:hover {
-            color:burlywood;
-            display: none;
-        }
+        transition: 0.3s;
 
         .logo {
             width:inherit;
-            height:20vh;
-            transform: translateX(0);
+            height:15vh;
+            transition: 0.3s;
+
             padding: 10px 0 0 0 ;
 
+        }
+
+        .navIds {
+            
+            .link {
+                margin: 0 50px 0 10px;
+            }
         }
     }
 

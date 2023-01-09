@@ -23,16 +23,36 @@ const NavBar = ({motion}) => {
     return ( 
         <div className={ active ? `${styles.flexContainer} ${styles.active}` : `${styles.flexContainer}`}>
             <div className={styles.navItems} >
-                <div><em className={styles.italic}>Ʌ </em><Link className={styles.linkP} href="/posts">POST</Link></div>
+                <div>
+                    <em className={styles.italic}>Ʌ </em>
+                    <Link className={styles.linkP} href="/posts">POST</Link>
+                </div>
                 <Image
                     src={Logo}
                     className={styles.logo}
                     alt ="navbar logo"
                 />
-                <div><em className={styles.italic}>Ʌ </em><Link className={styles.linkW} href="/web">WEB</Link></div>
+                <div>
+                    <em className={styles.italic}>Ʌ </em>
+                    <Link className={styles.linkW} href="/web">WEB</Link>
+                </div>
 
             </div>
-            
+            <div className={styles.navItems1}>
+                <Image
+                        src={Logo}
+                        className={styles.logo}
+                        alt ="navbar logo"
+                    />
+                <div className={styles.navIds}>
+                    <Link className={styles.link} href="#">Home</Link>
+                    <Link className={styles.link} href="#">About</Link>
+                    <Link className={styles.link} href="#">Pictures</Link>
+                    <Link className={styles.link} href="#">Brands</Link>
+                    <Link className={styles.link} href="#">Community</Link>
+                    <Link className={styles.link} href="#">Contacts</Link>
+                </div>
+            </div>
         </div>
     )
 }
