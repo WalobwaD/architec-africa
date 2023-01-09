@@ -17,17 +17,12 @@ const NavBar = ({motion}) => {
     if (typeof window !== 'undefined') {
         // this code will only be executed in the browser
         window.addEventListener('scroll', changeBackGround)
-        console.log(window)
       }
 
 
     return ( 
         <div className={ active ? `${styles.flexContainer} ${styles.active}` : `${styles.flexContainer}`}>
-            <motion.div 
-            initial ={{x:'-100vw'}}
-            animate = {{x:'0'}}
-            transition = {{type:"spring", duration:1, bounce:0.3}}
-            className={styles.navItems} >
+            <div className={styles.navItems} >
                 <div><em className={styles.italic}>Ʌ </em><Link className={styles.linkP} href="/posts">POST</Link></div>
                 <Image
                     src={Logo}
@@ -36,7 +31,7 @@ const NavBar = ({motion}) => {
                 />
                 <div><em className={styles.italic}>Ʌ </em><Link className={styles.linkW} href="/web">WEB</Link></div>
 
-            </motion.div>
+            </div>
             
         </div>
     )

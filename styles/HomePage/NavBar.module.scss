@@ -76,35 +76,40 @@
 
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content:left;
         margin: 0 100px 0 80px;
 
         .italic {
             font-size: 0.9rem;
+            display: none;
         }
 
         .linkW {
             transition: 0.3s;
             font-size: 0.8rem;
+            display: none;
         }
 
         .linkP {
             transition: 0.3s;
             font-size: 0.8rem;
+            display: none;
         }
 
         .linkW:hover {
             color:aqua;
+            display: none;
         }
 
         .linkP:hover {
             color:burlywood;
+            display: none;
         }
 
         .logo {
             width:inherit;
-            height:10vh;
-
+            height:20vh;
+            transform: translateX(0);
             padding: 10px 0 0 0 ;
 
         }
