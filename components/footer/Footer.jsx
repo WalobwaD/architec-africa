@@ -3,7 +3,7 @@ import Details from "./Comm";
 import Contacts from "./Contact";
 const Footer = ()=> {
     return (
-        <section className={FootStyles.footSec}>
+        <section className={FootStyles.footSec} id="contacts">
             <div className={FootStyles.flexContainer}>
                 <div className={FootStyles.content}>
                     <h1 className={FootStyles.title}>Join The Community</h1>

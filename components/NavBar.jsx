@@ -45,12 +45,14 @@ const NavBar = ({motion}) => {
                         alt ="navbar logo"
                     />
                 <div className={styles.navIds}>
-                    <Link className={styles.link} href="#">Home</Link>
-                    <Link className={styles.link} href="#">About</Link>
-                    <Link className={styles.link} href="#">Pictures</Link>
-                    <Link className={styles.link} href="#">Brands</Link>
-                    <Link className={styles.link} href="#">Community</Link>
-                    <Link className={styles.link} href="#">Contacts</Link>
+                    <Link className={styles.link} href="/">Home</Link>
+                    <Link className={styles.link} href="#about">About</Link>
+                    <Link className={styles.link} href="#pictures">Pictures</Link>
+                    <Link className={styles.link} href="#brands">Brands</Link>
+                    <Link className={styles.link} href="#contacts">Community</Link>
+                    <Link className={styles.link} href="#contacts">Contacts</Link>
+                    <Link className={styles.link} href="/posts">Ʌ POST</Link>
+                    <Link className={styles.link} href="/posts">Ʌ WEB</Link>
                 </div>
             </div>
         </div>

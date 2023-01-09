@@ -3,7 +3,7 @@ import Web from "./Post";
 import Post from "./Web";
 const About = () => {
     return (
-        <section className={AboutStyles.abtSec}>
+        <section className={AboutStyles.abtSec} id="about">
             <div className={AboutStyles.flexContainer}>
                 <div className={AboutStyles.content}>
                     <h2 className={AboutStyles.title}>Who we are</h2>

@@ -23,38 +23,12 @@ const Pictures = ()=> {
 
 
     return (
-        <section className={styles.picSec}>
+        <section className={styles.picSec} id="pictures">
 
             <div className={styles.flexContainer}>
                 <div className={styles.content}>
                     <h1 className={styles.title}>Pictures</h1>
                     <hr className={styles.hr}></hr>
-                    {/* <div className={styles.cards}>
-                        <div className={styles.card}>
-                            <Image 
-                                src={pic1}
-                                className = {styles.img}
-                            />
-                        </div>
-                        <div className={styles.card}>
-                            <Image 
-                                    src={pic2}
-                                    className = {styles.img}
-                                />
-                        </div>
-                        <div className={styles.card}>
-                            <Image 
-                                    src={pic3}
-                                    className = {styles.img}
-                                />
-                        </div>
-                        <div className={styles.card}>
-                            <Image 
-                                    src={pic4}
-                                    className = {styles.img}
-                                />
-                        </div>
-                    </div> */}
                     <div className={styles.cards}>
                         <Carousel>
                             <CarouselItem><Image alt="pictures" className={styles.img} src={pic8}/></CarouselItem>
@@ -65,45 +39,6 @@ const Pictures = ()=> {
                             <CarouselItem><Image alt="pictures" className={styles.img} src={pic3}/></CarouselItem>
                             <CarouselItem><Image alt="pictures" className={styles.img} src={pic2}/></CarouselItem>
                             <CarouselItem><Image alt="pictures" className={styles.img} src={pic1}/></CarouselItem>
-                            {/* <Image
-                                src={pic8}
-                                className={styles.card}
-                            />
-                            <Image
-                                src={pic7}
-                                className={styles.card}
-
-                            />
-                            <Image
-                                src={pic6}
-                                className={styles.card}
-
-                            />      
-                            <Image
-                                src={pic5}
-                                className={styles.card}
-
-                            />      
-                            <Image
-                                src={pic4}
-                                className={styles.card}
-
-                            />   
-                            <Image
-                                src={pic3}
-                                className={styles.card}
-
-                            />
-                            <Image
-                                src={pic2}
-                                className={styles.card}
-
-                            />
-                            <Image
-                                src={pic1}
-                                className={styles.card}
-
-                            />                                                            */}
 
                         </Carousel>
                     </div>

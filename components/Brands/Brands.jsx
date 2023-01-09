@@ -4,7 +4,7 @@ import BrandStyles from "../../styles/HomePage/Brands/Brands.module.scss"
 
 const Brands = ()=> {
     return (
-        <section className={BrandStyles.brandSec}>
+        <section className={BrandStyles.brandSec} id="brands">
             <div className={BrandStyles.flexContainer}>
                 <div className={BrandStyles.content}>
                     <h1 className={BrandStyles.title}>Our Brands</h1>
