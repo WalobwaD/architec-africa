@@ -27,8 +27,6 @@ const Pictures = ()=> {
 
             <div className={styles.flexContainer}>
                 <div className={styles.content}>
-                    <h1 className={styles.title}>Pictures</h1>
-                    <hr className={styles.hr}></hr>
                     <div className={styles.cards}>
                         <Carousel>
                             <CarouselItem><Image alt="pictures" className={styles.img} src={pic8}/></CarouselItem>

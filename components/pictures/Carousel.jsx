@@ -35,6 +35,7 @@ const Carousel = ({children}) => {
                 <button className={styles.button}
                     onClick={()=>{
                         updateIndex(activeIndex-1)
+                        console.log(activeIndex)
                     }}
                     >
                     Prev
@@ -42,6 +43,8 @@ const Carousel = ({children}) => {
                 <button className={styles.button}
                     onClick={()=>{
                         updateIndex(activeIndex+1)
+                        console.log(activeIndex)
+
                     }}
                     >
                     Next
