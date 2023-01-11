@@ -3,7 +3,7 @@ import {motion} from "framer-motion"
 
 import styles from '../styles/HomePage/Home.module.scss'
 
-import NavBar from '../components/NavBar'
+import NavBar from '../components/nav/NavBar'
 import About from "../components/about/About"
 import Pictures from '../components/pictures/Pictures'
 import Brands from "../components/Brands/Brands"
