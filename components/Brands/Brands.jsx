@@ -2,7 +2,7 @@ import ArchPost from "./ArchPost"
 import ArchWeb from "./ArchWeb"
 import BrandStyles from "../../styles/HomePage/Brands/Brands.module.scss"
 
-const Brands = ()=> {
+const Brands = ({motion})=> {
     return (
         <section className={BrandStyles.brandSec} id="brands">
             <div className={BrandStyles.flexContainer}>
@@ -14,8 +14,8 @@ const Brands = ()=> {
                         iconic brands we cultivate to the world-leading talents we engage, we are committed to the best of the best
                     </p>
                     <div className={BrandStyles.brands}>
-                        <ArchPost />
-                        <ArchWeb /> 
+                        <ArchPost motion={motion}/>
+                        <ArchWeb motion={motion}/> 
                     </div>
 
                 </div>

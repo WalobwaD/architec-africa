@@ -1,7 +1,22 @@
 .post {
-    display: flex;
+    max-width: 50vw;
+    height:inherit;
+    display: grid;
+    justify-items: center;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
 
+    .photo {
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .photo:hover {
+        opacity: 0.1;
+    }
+
+}
+
+.post > * {
+    grid-column-start: 1;
+    grid-row-start: 1;
 }

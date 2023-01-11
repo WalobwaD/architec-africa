@@ -29,7 +29,7 @@ export default function Home() {
         </section>
         <About/>
         <Pictures/>
-        <Brands />
+        <Brands motion={motion}/>
         <FooterComp/>
 
 

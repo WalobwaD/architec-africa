@@ -1,6 +1,5 @@
 import AboutStyles from "../../styles/HomePage/About.module.scss"
-import Web from "./Post";
-import Post from "./Web";
+
 const About = () => {
     return (
         <section className={AboutStyles.abtSec} id="about">
@@ -15,8 +14,6 @@ const About = () => {
                     </p>
                 </div>
                 <div className={AboutStyles.brands}>
-                    <Post/>
-                    <Web/>
                 </div>
             </div>
 
