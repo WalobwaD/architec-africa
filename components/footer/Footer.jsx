@@ -1,7 +1,7 @@
 import FootStyles from "../../styles/HomePage/Footer/FootStyles.module.scss" 
 import Details from "./Comm";
 import Contacts from "./Contact";
-const Footer = ()=> {
+const Footer = ({motion})=> {
     return (
         <section className={FootStyles.footSec} id="contacts">
             <div className={FootStyles.flexContainer}>
@@ -10,7 +10,7 @@ const Footer = ()=> {
                     <hr className={FootStyles.hr}></hr>
                 </div>
             </div>
-            <Details/>
+            <Details motion={motion}/>
             <Contacts/>
 
         </section>

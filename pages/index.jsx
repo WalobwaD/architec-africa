@@ -30,7 +30,7 @@ export default function Home() {
         <About/>
         <Pictures/>
         <Brands motion={motion}/>
-        <FooterComp/>
+        <FooterComp motion={motion}/>
 
 
       </main>
