@@ -8,23 +8,29 @@ import Image from "next/image"
 
 const InitialNav = ()=> {
     return (
-        <div className={styles.flexContainer}>
+        <nav className={styles.flexContainer}>
             <div className={styles.navItems} >
-                <div>
-                    <em className={styles.italic}>Ʌ </em>
-                    <Link className={styles.linkP} href="/posts">POST</Link>
-                </div>
                 <Image
-                    src={Logo}
-                    className={styles.logo}
-                    alt ="navbar logo"
-                />
-                <div>
-                    <em className={styles.italic}>Ʌ </em>
-                    <Link className={styles.linkW} href="/web">WEB</Link>
+                        src={Logo}
+                        className={styles.logo}
+                        alt ="navbar logo"
+                        priority
+                    />
+                <div className={styles.navLinks}>
+                    <Link href="/">Home</Link>
+                    <Link href="#about">About</Link>
+                    <Link href="#brands">Brands</Link>
+                    <Link href="#contacts">Community</Link>
+                    <Link href="#contacts">Contacts</Link>
+                    <Link href="#news">News</Link>
+                    <div className={styles.buggerMenu}>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
+
             </div>
-        </div>
+        </nav>
     )
 }
 
