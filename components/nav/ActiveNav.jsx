@@ -21,14 +21,16 @@ const ActiveNav = ()=> {
                         alt ="navbar logo"
                     />
                 <div className={styles.navIds}>
-                    <Link className={styles.link} href="/">Home</Link>
-                    <Link className={styles.link} href="#about">About</Link>
-                    <Link className={styles.link} href="#pictures">Pictures</Link>
-                    <Link className={styles.link} href="#brands">Brands</Link>
-                    <Link className={styles.link} href="#contacts">Community</Link>
-                    <Link className={styles.link} href="#contacts">Contacts</Link>
-                    <Link className={styles.linkPOST} href="/posts">Ʌ POST</Link>
-                    <Link className={styles.linkWEB} href="/posts">Ʌ WEB</Link>
+                    <Link href="/">Home</Link>
+                    <Link href="#about">About</Link>
+                    <Link href="#brands">Brands</Link>
+                    <Link href="#contacts">Community</Link>
+                    <Link href="#contacts">Contacts</Link>
+                    <Link href="#news">News</Link>
+                    <div className={styles.buggerMenu}>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
             </div>
         </div>

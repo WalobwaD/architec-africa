@@ -12,7 +12,7 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   
-  background-color: black;
+  background-color: #211F1C;
   color: white;
   scroll-behavior: smooth;
 }

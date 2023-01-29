@@ -1,20 +1,22 @@
-import AboutStyles from "../../styles/HomePage/About.module.scss"
+import styles from "../../styles/HomePage/About.module.scss"
 
 const About = () => {
     return (
-        <section className={AboutStyles.abtSec} id="about">
-            <div className={AboutStyles.flexContainer}>
-                <div className={AboutStyles.content}>
-                    <h2 className={AboutStyles.title}>Who we are</h2>
-                    <hr className={AboutStyles.hr}></hr>
-                    <p className={AboutStyles.text}>Archtivate Africa is a global multimedia company that produces some of the world’s leading architectural broadcasting
+        <section className={styles.abtSec} id="about">
+            <div className={styles.flexContainer}>
+                <div className={styles.content}>
+                    <h2 className={styles.title}>Who we are</h2>
+                    <hr className={styles.hr}></hr>
+                    <p className={styles.text}>Archtivate Africa is a global multimedia company that produces some of the world’s leading architectural broadcasting
                         and web design brands. These include Archtivate Post and Archtivate Web. Our goal is to showcase the beauty and
                         innovation of African architecture and design, and to provide our clients with high-quality content that helps them to
                         promote their projects and expertise.
                     </p>
+                    <div className={styles.link}>
+                        <p>Learn More</p>
+                    </div>
                 </div>
-                <div className={AboutStyles.brands}>
-                </div>
+
             </div>
 
         </section>

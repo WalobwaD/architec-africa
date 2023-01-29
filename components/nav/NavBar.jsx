@@ -9,7 +9,7 @@ const NavBar = ({motion}) => {
     const [active, setActive] = useState(false)
 
     const changeBackGround = ()=> {
-        if (window.scrollY >= 80) {
+        if (window.scrollY >= 10) {
             setActive(true)
         }else {
             setActive(false)
