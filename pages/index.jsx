@@ -9,7 +9,7 @@ import Pictures from '../components/pictures/Pictures'
 import Brands from "../components/Brands/Brands"
 import FooterComp from "../components/footer/Footer"
 import Community from '../components/community/Communit'
-import Series from '../components/Series/Series'
+import Series from '../components/series/Series'
 
 
 export default function Home() {
