@@ -8,28 +8,30 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100%;
 
         .content {
             display: flex;
             align-items: center;
-            justify-content: center;
-            flex-direction: column;
+            width: 100%;
+            justify-content: space-evenly ;
 
-            width: 60%;
-
-            .title {
-                font-weight: 900;
-                font-size: 2rem;
-
+            .logo {
+                width: 190px;
+                height: 150px;
             }
 
-            .hr {
-                color: white;
-                background-color: white;
-                width: 60px;
-                height: 2px;
+            .icons {
+                display: flex;
+                flex-direction: column;
                 
+                > * {
+                    margin: 0 0 10px 0;
+                    font-size: 1.6rem;
+                }
             }
+
+            
         }
     }
 }

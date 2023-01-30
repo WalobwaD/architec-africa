@@ -1,18 +1,18 @@
-.abtSec {
+.seriesSec {
     width: 100%;
-    padding: 80px 0 0 0;
+
+    padding: 80px 0 100px 0 ;
 
     .flexContainer {
         display: flex;
         align-items: center;
         justify-content: center;
 
-
         .content {
             display: flex;
-            flex-direction: column;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
+            flex-direction: column;
 
             width: 60%;
 
@@ -20,15 +20,16 @@
                 font-weight: 700;
                 font-size: 2rem;
                 align-self: flex-start;
+
             }
 
             .text {
                 line-height: 1.5rem;
                 margin: 20px 0 0 0;
-                text-align:start;
+                text-align:left;
                 font-size: 1.2rem;
             }
-
+            
             .link {
                 align-self:flex-start;
                 border: 2px solid white;
@@ -47,16 +48,9 @@
                 }
             }
 
-            .brands {
-                width: 100vw;
-                margin:50px 0 0 0;
-                display: flex;
-                justify-content: center;
-                flex-wrap: wrap;
-                
-            }
-
         }
-        
+
+
     }
+    
 }

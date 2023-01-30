@@ -17,35 +17,37 @@
             width: 60%;
 
             .title {
-                font-weight: 900;
+                font-weight: 700;
                 font-size: 2rem;
+                align-self: flex-start;
 
-            }
-
-            .hr {
-                color: white;
-                background-color: white;
-                width: 60px;
-                height: 2px;
-                
             }
 
             .text {
                 line-height: 1.5rem;
                 margin: 20px 0 0 0;
-                text-align: center;
+                text-align:left;
                 font-size: 1.2rem;
             }
+            
+            .link {
+                align-self:flex-start;
+                border: 2px solid white;
 
-            .brands {
-                // border: 1px solid gray;
-                width: 100vw;
-                margin:50px 0 0 0;
+                margin: 20px 0 0 0;
+                padding: 10px 30px 10px 30px;
+
                 display: flex;
+                align-items: center;
                 justify-content: center;
-                flex-wrap: wrap;
-                
+
+                cursor: pointer;
+                transition: 0.3s;
+                &:hover {
+                    background-color: gray;
+                }
             }
+
         }
 
 

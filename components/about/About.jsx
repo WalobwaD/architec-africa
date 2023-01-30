@@ -1,6 +1,7 @@
 import styles from "../../styles/HomePage/About.module.scss"
-
-const About = () => {
+import ArchPost from "./ArchPost"
+import ArchWeb from "./ArchWeb"
+const About = ({motion}) => {
     return (
         <section className={styles.abtSec} id="about">
             <div className={styles.flexContainer}>
@@ -14,6 +15,10 @@ const About = () => {
                     </p>
                     <div className={styles.link}>
                         <p>Learn More</p>
+                    </div>                    
+                    <div className={styles.brands}>
+                        <ArchPost motion={motion}/>
+                        <ArchWeb motion={motion}/> 
                     </div>
                 </div>
 

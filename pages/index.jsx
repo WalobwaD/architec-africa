@@ -8,6 +8,8 @@ import About from "../components/about/About"
 import Pictures from '../components/pictures/Pictures'
 import Brands from "../components/Brands/Brands"
 import FooterComp from "../components/footer/Footer"
+import Community from '../components/community/Communit'
+import Series from '../components/Series/Series'
 
 
 export default function Home() {
@@ -27,9 +29,12 @@ export default function Home() {
             Your browser does not support HTML5 videos!
           </video>
         </section>
-        <About/>
+        <About motion={motion}/>
+        <Brands motion={motion}/>  
+        <Community/>      
         <Pictures/>
-        <Brands motion={motion}/>
+        <Series/>
+
         <FooterComp motion={motion}/>
 
 
