@@ -1,5 +1,12 @@
 import styles from "../../styles/HomePage/Pictures/Pictures.module.scss"
-import Carousel, {CarouselItem} from "./Carousel"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper"
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/scss/scrollbar';
 
 import Image from "next/image";
 import pic1 from "../../public/Pic1.png"
@@ -28,17 +35,26 @@ const Pictures = ()=> {
             <div className={styles.flexContainer}>
                 <div className={styles.content}>
                     <div className={styles.cards}>
-                        <Carousel>
-                            <CarouselItem><Image alt="pictures" className={styles.img} src={pic8}/></CarouselItem>
-                            <CarouselItem><Image alt="pictures" className={styles.img} src={pic7}/></CarouselItem>
-                            <CarouselItem><Image alt="pictures" className={styles.img} src={pic6}/></CarouselItem>
-                            <CarouselItem><Image alt="pictures" className={styles.img} src={pic5}/></CarouselItem>
-                            <CarouselItem><Image alt="pictures" className={styles.img} src={pic4}/></CarouselItem>
-                            <CarouselItem><Image alt="pictures" className={styles.img} src={pic3}/></CarouselItem>
-                            <CarouselItem><Image alt="pictures" className={styles.img} src={pic2}/></CarouselItem>
-                            <CarouselItem><Image alt="pictures" className={styles.img} src={pic1}/></CarouselItem>
+                        <Swiper
+                            modules={[Navigation, Pagination, Scrollbar, A11y]}
+                            spaceBetween={0}
+                            slidesPerView={3}
+                            navigation
+                            pagination={{ clickable: true }}
+                            scrollbar={{ draggable: true }}
+                            onSlideChange={() => console.log('slide change')}
+                            onSwiper={(swiper) => console.log(swiper)}
+                        >
+                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic8}/></SwiperSlide>
+                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic7}/></SwiperSlide>
+                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic6}/></SwiperSlide>
+                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic5}/></SwiperSlide>
+                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic4}/></SwiperSlide>
+                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic3}/></SwiperSlide>
+                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic2}/></SwiperSlide>
+                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic1}/></SwiperSlide>
 
-                        </Carousel>
+                        </Swiper>
                     </div>
 
                 </div>
