@@ -22,14 +22,12 @@
                 flex-wrap: wrap;
                 align-items: center;
                 justify-content: center;
-
                 width: 100vw;
-                margin: 40px 10px 0 0;
 
                     .img {
-                        width: inherit;
-                        height: 350px;
-                        object-fit:cover;
+                        width: 100%;
+                        height: inherit;
+                        object-fit: contain;
                     }
             }
         }

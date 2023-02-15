@@ -1,5 +1,5 @@
 .abtSec {
-    width: 100%;
+    width: 100vw;
     padding: 80px 0 0 0;
 
     .flexContainer {
@@ -49,10 +49,8 @@
 
             .brands {
                 width: 100vw;
-                margin:50px 0 0 0;
                 display: flex;
-                justify-content: center;
-                flex-wrap: wrap;
+                margin: 10% 0 0 0 ;
                 
             }
 

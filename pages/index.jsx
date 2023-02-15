@@ -10,6 +10,7 @@ import Brands from "../components/Brands/Brands"
 import FooterComp from "../components/footer/Footer"
 import Community from '../components/community/Communit'
 import Series from '../components/series/Series'
+import IdeaHub from '../components/ideaHub/IdeaHub'
 
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
         </section>
         <About motion={motion}/>
         <Brands motion={motion}/>  
+        <IdeaHub />
         <Community/>      
         <Pictures/>
         <Series/>

@@ -1,22 +1,43 @@
-.web {
-    max-width: 50vw;
-    height:inherit;
-    display: grid;
-    justify-items: center;
-    align-items: center;
+// .web {
+//     max-width: 50%;
+//     display: grid;
+//     justify-items: center;
+//     align-items: center;
 
+//     .photo {
+//         opacity: 0;
+//         transition: 0.3s;
+//         object-fit: contain;
+//     }
+
+//     .photo:hover {
+//         opacity: 0.1;
+//     }
+
+// }
+
+// .web > * {
+//     grid-column-start: 1;
+//     grid-row-start: 1;
+// }
+.web {
+    width: 50vw;
+    background: url(../../../public/AWEB.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
     .photo {
+        object-fit: contain;
+        height: inherit;
+        width: 100%;
         opacity: 0;
         transition: 0.3s;
     }
 
-    .photo:hover {
-        opacity: 0.1;
+    &:hover {
+        .photo {
+            opacity: 0.5;
+        }
     }
 
-}
-
-.web > * {
-    grid-column-start: 1;
-    grid-row-start: 1;
 }

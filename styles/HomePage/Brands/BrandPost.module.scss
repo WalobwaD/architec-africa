@@ -1,22 +1,41 @@
+// .post {
+//     display: grid;
+//     justify-items: center;
+//     align-items: center;
+
+//     .photo {
+//         opacity: 0;
+//         object-fit: contain;
+//         transition: 0.3s;
+//     }
+
+//     .photo:hover {
+//         opacity: 0.1;
+//     }
+
+// }
+
+// .post > * {
+//     grid-column-start: 1;
+//     grid-row-start: 1;
+// }
 .post {
-    max-width: 50vw;
-    height:inherit;
-    display: grid;
-    justify-items: center;
-    align-items: center;
+    width: 50vw;
+    background: url(../../../public/APOST.png);
+    background-repeat: no-repeat;
+    background-position: center;
 
     .photo {
+        width: 100%;
+        height: inherit;
+        object-fit: contain;
         opacity: 0;
         transition: 0.3s;
     }
 
-    .photo:hover {
-        opacity: 0.1;
+    &:hover {
+        .photo {
+            opacity: 0.5;
+        }
     }
-
-}
-
-.post > * {
-    grid-column-start: 1;
-    grid-row-start: 1;
 }

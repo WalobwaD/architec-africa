@@ -1,5 +1,5 @@
 import Logo from "../../public/APOST.png"
-import Example from "../../public/postPic.jpg"
+import Example from "../../public/BrandImage.jpg"
 import Image from "next/image"
 import styles from "../../styles/HomePage/Brands/BrandPost.module.scss"
 const ArchPost = ({motion})=> {
@@ -11,10 +11,11 @@ const ArchPost = ({motion})=> {
                     className={styles.photo}
 
             />
-            <Image
+            {/* <Image
                 src= {Logo}
                 alt= "brandPost"
-            />
+                className={styles.logo}
+            /> */}
         </div>
     )
 }
