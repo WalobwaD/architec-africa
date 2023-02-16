@@ -13,12 +13,14 @@
         .content {
             display: flex;
             align-items: center;
+            flex-wrap: wrap-reverse;
             width: 100%;
             justify-content: space-evenly ;
 
             .contacts1, .contacts2 {
                 > * {
                     margin: 10px 0 0 0;
+                    text-align: center;
                 }
             }
 
