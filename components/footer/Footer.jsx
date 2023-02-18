@@ -6,6 +6,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import PinterestIcon from '@mui/icons-material/Pinterest';
+import Instagram from "@mui/icons-material/Instagram"
 
 const Footer = ({motion})=> {
     return (
@@ -31,6 +32,8 @@ const Footer = ({motion})=> {
                             <YouTubeIcon />
                             <TwitterIcon />
                             <PinterestIcon />
+                            <Instagram/>
+                            
                         </div>
 
                     </div>

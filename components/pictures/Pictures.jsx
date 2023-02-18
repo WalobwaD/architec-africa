@@ -36,14 +36,14 @@ const Pictures = ()=> {
                             pagination={{ clickable: true }}
                             scrollbar={{ draggable: true }}
                         >
-                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic8}/></SwiperSlide>
-                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic7}/></SwiperSlide>
                             <SwiperSlide><Image alt="pictures" className={styles.img} src={pic6}/></SwiperSlide>
+                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic1}/></SwiperSlide>
                             <SwiperSlide><Image alt="pictures" className={styles.img} src={pic5}/></SwiperSlide>
+                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic2}/></SwiperSlide>
+                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic8}/></SwiperSlide>
                             <SwiperSlide><Image alt="pictures" className={styles.img} src={pic4}/></SwiperSlide>
                             <SwiperSlide><Image alt="pictures" className={styles.img} src={pic3}/></SwiperSlide>
-                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic2}/></SwiperSlide>
-                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic1}/></SwiperSlide>
+                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic7}/></SwiperSlide>
 
                         </Swiper>
                     </div>
