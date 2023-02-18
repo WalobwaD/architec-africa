@@ -1,25 +1,3 @@
-// .web {
-//     max-width: 50%;
-//     display: grid;
-//     justify-items: center;
-//     align-items: center;
-
-//     .photo {
-//         opacity: 0;
-//         transition: 0.3s;
-//         object-fit: contain;
-//     }
-
-//     .photo:hover {
-//         opacity: 0.1;
-//     }
-
-// }
-
-// .web > * {
-//     grid-column-start: 1;
-//     grid-row-start: 1;
-// }
 .web {
     width: 50vw;
     background: url(../../../public/AWEB.png);

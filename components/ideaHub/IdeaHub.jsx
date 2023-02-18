@@ -1,15 +1,19 @@
 import Image from "next/image";
-import IdeaImage from "../../public/IdeaHub.jpg"
+import logo from "../../public/IdeaLogo.jpg"
 import styles from "../../styles/HomePage/IdeaHub/Idea.module.scss"
 const IdeaHub = ()=> {
 
     return (
         <div className={styles.content}>
-            <Image 
-                src={IdeaImage}
-                alt="idea"
-                className={styles.image}
-            />
+            <div className={styles.image}>
+                <Image 
+                    src={logo} 
+                    alt="logo" 
+                    className={styles.logo} 
+                    width={100} 
+                    height={200}/>
+            </div>
+
             <div className={styles.texts}>
                 <div className={styles.straight}></div>
                 <h3 className={styles.title}>Idea Hub</h3>

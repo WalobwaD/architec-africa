@@ -8,7 +8,14 @@
     .image {
         width: 60%;
         height: 400px;
-        // object-fit: contain;
+        background: url(../../../public/IdeaHub.jpg);
+
+        .logo {
+            width: 100%;
+            height: 100%;
+            opacity: 0.3;
+            object-fit: contain;
+        }
     }
 
     .texts {
