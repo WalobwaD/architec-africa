@@ -19,7 +19,7 @@ import pic7 from "../../public/Pic7.jpg"
 import pic8 from "../../public/Pic8.jpg"
 
 
-const Pictures = ()=> {
+const Pictures = ({motion})=> {
 
 
     return (
@@ -36,7 +36,10 @@ const Pictures = ()=> {
                             pagination={{ clickable: true }}
                             scrollbar={{ draggable: true }}
                         >
-                            <SwiperSlide><Image alt="pictures" className={styles.img} src={pic6}/></SwiperSlide>
+
+                            <SwiperSlide>
+                                <Image alt="pictures" className={styles.img} src={pic6}/>
+                            </SwiperSlide>
                             <SwiperSlide><Image alt="pictures" className={styles.img} src={pic1}/></SwiperSlide>
                             <SwiperSlide><Image alt="pictures" className={styles.img} src={pic5}/></SwiperSlide>
                             <SwiperSlide><Image alt="pictures" className={styles.img} src={pic2}/></SwiperSlide>

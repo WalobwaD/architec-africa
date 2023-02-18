@@ -28,6 +28,10 @@
                         width: 100%;
                         height: inherit;
                         object-fit: contain;
+                        transition: 0.3s;
+                        &:hover {
+                            scale: 1.3;
+                        }
                     }
             }
         }

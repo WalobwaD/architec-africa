@@ -34,7 +34,7 @@ export default function Home() {
         <Brands motion={motion}/>  
         <IdeaHub />
         <Community/>      
-        <Pictures/>
+        <Pictures motion={motion}/>
         <Series/>
 
         <FooterComp motion={motion}/>
