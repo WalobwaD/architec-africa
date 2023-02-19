@@ -31,7 +31,17 @@ const Pictures = ({motion})=> {
                         <Swiper
                             modules={[Navigation, Pagination, Scrollbar, A11y]}
                             spaceBetween={0}
-                            slidesPerView={3}
+                            breakpoints={{
+                                640: {
+                                    slidesPerView: 1
+                                },
+                                768: {
+                                    slidesPerView:2
+                                },
+                                1024 : {
+                                    slidesPerView: 3
+                                }
+                            }}
                             navigation
                             pagination={{ clickable: true }}
                             scrollbar={{ draggable: true }}
