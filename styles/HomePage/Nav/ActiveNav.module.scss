@@ -7,6 +7,7 @@
     position:fixed;
 
     background-color: #211F1C;
+    transition: all 0.3s;
 
     .navItems1 {
         height: 10vh;
@@ -24,8 +25,6 @@
 
             padding: 10px 0 0 0 ;
 
-            position: absolute;
-            left: 80px;
 
         }
 
@@ -49,8 +48,7 @@
             .buggerMenu {
                 cursor: pointer;
 
-                position: absolute;
-                right: 80px;
+                margin: 0 0 0 5rem;
 
                 > * {
                     display: flex;
@@ -74,7 +72,7 @@
 @media screen and (max-width:768px){
     .flexContainer.active {
         .navItems1 {
-            height: 10vh;
+            height: 5vh;
     
             display: flex;
             align-items: center;
@@ -90,7 +88,7 @@
                 display: flex;
                 text-align: center;
                 width:inherit;
-                height:18vh;
+                height:inherit;
                 transition: 0.3s;
     
                 padding: 10px 0 0 0 ;

@@ -11,6 +11,7 @@ import FooterComp from "../components/footer/Footer"
 import Community from '../components/community/Communit'
 import Series from '../components/series/Series'
 import IdeaHub from '../components/ideaHub/IdeaHub'
+import Video from '../components/Video'
 
 
 export default function Home() {
@@ -25,11 +26,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <NavBar motion={motion}/>
-        <section className={styles.vidSec}>
-          <video className={styles.vid}controls>
-            Your browser does not support HTML5 videos!
-          </video>
-        </section>
+        <Video />
         <About motion={motion}/>
         <Brands motion={motion}/>  
         <IdeaHub />

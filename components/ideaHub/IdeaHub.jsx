@@ -10,7 +10,7 @@ const IdeaHub = ()=> {
                     src={logo} 
                     alt="logo" 
                     className={styles.logo} 
-                    width={1000} 
+                    width={10000} 
                     height={10000}/>
             </div>
 

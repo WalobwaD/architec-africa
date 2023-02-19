@@ -3,7 +3,7 @@
     width: 100%;
     max-width: 100vw;
     z-index: 100000;
-    position:fixed;
+    position: sticky;
     
     transition: 0.3s;
     // overflow-y: hidden;
@@ -43,9 +43,7 @@
 
             .buggerMenu {
                 cursor: pointer;
-
-                position: absolute;
-                right: 80px;
+                margin: 0 0 0 4rem;
 
                 > * {
                     display: flex;
