@@ -7,7 +7,6 @@ const About = ({motion}) => {
             <div className={styles.flexContainer}>
                 <div className={styles.content}>
                     <h2 className={styles.title}>Who we are</h2>
-                    <hr className={styles.hr}></hr>
                     <p className={styles.text}>Archtivate Africa is a global multimedia company that produces some of the world’s leading architectural broadcasting
                         and web design brands. These include Archtivate Post and Archtivate Web. Our goal is to showcase the beauty and
                         innovation of African architecture and design, and to provide our clients with high-quality content that helps them to
