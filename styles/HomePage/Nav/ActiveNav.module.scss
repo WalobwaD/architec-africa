@@ -14,16 +14,18 @@
 
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
-        margin: 0 100px 0 80px;
+        justify-content: space-between;
+        // margin: 0 100px 0 80px;
         transition: 0.3s;
 
         .logo1 {
             width:inherit;
-            height:20vh;
+            height: 7rem;
             transition: 0.3s;
 
-            padding: 10px 0 0 0 ;
+            padding: 1rem 0 0 0 ;
+
+            margin: 0 0 0 7rem;
 
 
         }
@@ -35,13 +37,14 @@
         .navIds {
             display: flex;
             align-items: center;
-            
+            margin: 0 8rem 0 0;
+            transition: 0.3s;
             > * {
                 text-decoration: none;
                 text-transform: uppercase;
-                font-size: 15px;
+                font-size: 0.9rem;
                 color: white;
-                margin: 0 20px 0 20px ;
+                margin: 0 1rem 0 1rem ;
 
             }
 
