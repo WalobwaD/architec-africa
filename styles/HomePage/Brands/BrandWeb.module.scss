@@ -3,7 +3,7 @@
     background: url(../../../public/AWEB.png);
     background-repeat: no-repeat;
     background-position: center;
-    
+    object-fit: contain;
     .photo {
         object-fit: contain;
         height: inherit;
@@ -18,4 +18,17 @@
         }
     }
 
+}
+
+@media screen and (max-width:768px){
+    .web {
+        width: 100%;
+        .photo {
+            &:hover {
+                .photo {
+
+                }
+            }
+        }
+    }
 }

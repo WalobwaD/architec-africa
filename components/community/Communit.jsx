@@ -5,7 +5,6 @@ const Community = ()=> {
             <div className={styles.flexContainer}>
                 <div className={styles.content}>
                     <h1 className={styles.title}>Our Community</h1>
-                    <hr className={styles.hr}></hr>
                     <p className={styles.text}>
                         The community is a dedicated space where members can access exclusive resources and 
                         information, such as industry news, case studies, and best practices. 

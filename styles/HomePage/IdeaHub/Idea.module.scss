@@ -5,10 +5,14 @@
     align-items: center;
     justify-content: space-between;
 
+    margin: 2rem 0 0 0;
+
     .image {
         width: 60%;
         height: 400px;
         background: url(../../../public/IdeaHub.jpg);
+        background-size:contain;
+        
 
         .logo {
             width: 100%;
@@ -24,7 +28,7 @@
         justify-content: space-between;
         .straight {
             width: 80px;
-            height: 2px;
+            height: 0.1rem;
             background-color: white;
             rotate:90deg;
             margin: 0 0 0 20px;
@@ -32,7 +36,7 @@
 
         .title {
             color: #988356;
-            font-size: 2rem;
+            font-size: 2em;
         }
 
         .hum {
@@ -42,6 +46,32 @@
                 height: 2px;
                 background-color: white;
                 margin: 5px 0 0 0 ;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .content {
+        flex-direction: column-reverse;
+        .image {
+            width: 100%;
+            .logo {
+
+            }
+        }
+        .texts {
+            margin: 0 0 3rem 0;
+            width: 100%;
+            .straight {
+                margin: 0 0 0 0;
+
+            }
+            .title {
+
+            }
+            .hum {
+
             }
         }
     }

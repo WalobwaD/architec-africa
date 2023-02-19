@@ -27,7 +27,7 @@
                 line-height: 1.5rem;
                 margin: 20px 0 0 0;
                 text-align:left;
-                font-size: 1.2rem;
+                font-size: 1.2em;
             }
             
             .link {
@@ -53,4 +53,28 @@
 
     }
     
+}
+
+@media screen and (max-width:768px){
+    .brandSec {
+        .flexContainer {
+            .content {
+                width: 80%;
+                .title {
+                    align-self: center;
+
+                }
+                .text {
+                    text-align: center;
+
+                }
+                .link {
+                    align-self: center;
+                    &:hover {
+
+                    }
+                }
+            }
+        }
+    }
 }

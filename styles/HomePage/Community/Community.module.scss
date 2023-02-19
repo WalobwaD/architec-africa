@@ -54,3 +54,26 @@
     }
     
 }
+@media screen and (max-width:768px){
+    .commSec {
+        .flexContainer {
+            .content {
+                width: 80%;
+                .title {
+                    align-self: center;
+                    // font-size: 1.3rem;
+
+                }
+                .text {
+                    text-align: center;
+                }
+                .link {
+                    align-self: center;
+                    &:hover {
+
+                    }
+                }
+            }
+        }
+    }
+}
