@@ -14,7 +14,7 @@ const Footer = ({motion})=> {
             <div className={styles.flexContainer}>
                 <div className={styles.content}>
                     <div className={styles.contacts1}>
-                        <p>Work at archtivate africa</p>
+                        <p>Work at Archtivate Africa</p>
                         <p>Terms of use</p>
                         <p>Privacy policy</p>
                         <p>Cookie policy</p>

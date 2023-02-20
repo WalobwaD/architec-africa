@@ -6,7 +6,7 @@ const Community = ()=> {
                 <div className={styles.content}>
                     <h1 className={styles.title}>Our Community</h1>
                     <p className={styles.text}>
-                        The community is a dedicated space where members can access exclusive resources and 
+                        Archtivate Tribe is an idea hub where members can access exclusive resources and 
                         information, such as industry news, case studies, and best practices. 
                         Members can also participate in discussions and forums, 
                         where they can share their experiences and insights with other professionals. 

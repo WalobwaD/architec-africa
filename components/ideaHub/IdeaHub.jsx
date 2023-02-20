@@ -14,8 +14,8 @@ const IdeaHub = ()=> {
                     src={logo} 
                     alt="logo" 
                     className={styles.logo} 
-                    width={10000} 
-                    height={10000}/>
+                    width={100000} 
+                    height={100000}/>
             </div>
 
             <div className={styles.texts}>
@@ -37,7 +37,6 @@ const IdeaHub = ()=> {
                     </SwiperSlide>
                 </Swiper>
                 <div className={styles.hum}>
-                    <div></div>
                     <div></div>
                     <div></div>
                 </div>

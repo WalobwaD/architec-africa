@@ -30,6 +30,7 @@ const ActiveNav = ()=> {
                     <div className={styles.buggerMenu}>
                         <div></div>
                         <div></div>
+                        <div></div>
                     </div>
                 </div>
             </div>

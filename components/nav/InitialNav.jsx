@@ -26,6 +26,7 @@ const InitialNav = ()=> {
                     <div className={styles.buggerMenu}>
                         <div></div>
                         <div></div>
+                        <div></div>
                     </div>
                 </div>
 
