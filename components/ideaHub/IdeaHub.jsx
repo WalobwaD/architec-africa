@@ -33,7 +33,7 @@ const IdeaHub = ()=> {
                         <h3 className={styles.title}>Join The Tribe</h3>
                     </SwiperSlide>
                     <SwiperSlide>                
-                        <h3 className={styles.title}>Comming Soon</h3>
+                        <h3 className={styles.title}>Coming Soon</h3>
                     </SwiperSlide>
                 </Swiper>
                 <div className={styles.hum}>
