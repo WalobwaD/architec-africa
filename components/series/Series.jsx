@@ -4,7 +4,7 @@ const Series = ()=> {
         <section className={styles.seriesSec} id="series">
             <div className={styles.flexContainer}>
                 <div className={styles.content}>
-                    <h1 className={styles.title}>Venacular Architecture</h1>
+                    <h1 className={styles.title}>Vernacular Architecture</h1>
                     <p className={styles.text}>
                         The community is a dedicated space where members can access exclusive resources and 
                         information, such as industry news, case studies, and best practices. 
