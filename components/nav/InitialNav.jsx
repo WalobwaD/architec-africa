@@ -6,7 +6,7 @@ import Image from "next/image"
 
 
 
-const InitialNav = ()=> {
+const InitialNav = ({toggle})=> {
     return (
         <nav className={styles.flexContainer}>
             <div className={styles.navItems} >
@@ -23,12 +23,13 @@ const InitialNav = ()=> {
                     <Link href="#idea">IdeaHub</Link>
                     <Link href="#community">Community</Link>
                     <Link href="#contacts">Contact</Link>
-                    <div className={styles.buggerMenu}>
+                    <div onClick={toggle} className={styles.buggerMenu}>
                         <div></div>
                         <div></div>
                         <div></div>
                     </div>
                 </div>
+ 
 
             </div>
         </nav>

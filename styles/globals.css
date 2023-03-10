@@ -17,9 +17,63 @@ body {
 }
 
 
+.side {
 
+  display: none;
+  transition: all 0.3s;
+  
+}
+.active{
+  position: fixed;
+  width: 40%;
+  right: 0;
+  background-color: black;
+  color: white;
+  height:100%;
+  z-index: 100;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.3s;
+}
+
+.active > * {
+  margin: 40px 0 0 0;
+  text-decoration: none;
+  color: white;
+}
+.hum-active {
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  cursor: pointer;
+  transition: all 0.3s;
+
+
+  
+}
+.hum-active > *{
+
+  width: 20px;
+  background-color: aliceblue;
+  height: 2px;
+  margin: 10px 0 0 0;
+}
+
+.line-1{
+    transform:rotate(-45deg) translate(-4px, 5px)
+}
+
+.line-2{
+    transform: rotate(45deg) translate(-4px, -5px);
+}
 
 @media screen and (max-width:768px){
+  .active {
+    width: 70%;
+  }
 
 }
 
