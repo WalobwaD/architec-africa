@@ -20,9 +20,9 @@ const InitialNav = ()=> {
                     <Link href="/">Home</Link>
                     <Link href="#about">About</Link>
                     <Link href="#brands">Brands</Link>
-                    <Link href="#contacts">Community</Link>
-                    <Link href="#contacts">Contacts</Link>
-                    <Link href="#news">News</Link>
+                    <Link href="#idea">Idea Hub</Link>
+                    <Link href="#community">Community</Link>
+                    <Link href="#contacts">Contact</Link>
                     <div className={styles.buggerMenu}>
                         <div></div>
                         <div></div>

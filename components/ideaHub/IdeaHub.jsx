@@ -8,7 +8,7 @@ import { Autoplay } from "swiper"
 const IdeaHub = ()=> {
 
     return (
-        <div className={styles.content}>
+        <div className={styles.content} id="idea">
             <div className={styles.image}>
                 <Image 
                     src={logo} 

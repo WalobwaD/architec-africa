@@ -3,7 +3,7 @@ import styles from "../../styles/HomePage/Brands/Brands.module.scss"
 
 const Brands = ({motion})=> {
     return (
-        <section className={styles.brandSec} id="brands">
+        <section className={styles.brandSec}>
             <div className={styles.flexContainer}>
                 <div className={styles.content}>
                     <h1 className={styles.title}>Our Brands</h1>

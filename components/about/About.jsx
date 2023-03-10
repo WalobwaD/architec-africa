@@ -15,7 +15,7 @@ const About = ({motion}) => {
                     <div className={styles.link}>
                         <p>Learn More</p>
                     </div>                    
-                    <div className={styles.brands}>
+                    <div className={styles.brands} id="brands">
                         <ArchPost motion={motion}/>
                         <ArchWeb motion={motion}/> 
                     </div>
