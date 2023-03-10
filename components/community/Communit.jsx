@@ -4,7 +4,7 @@ const Community = ()=> {
         <section className={styles.commSec} id="community">
             <div className={styles.flexContainer}>
                 <div className={styles.content}>
-                    <h1 className={styles.title}>Our Community</h1>
+                    <h1 className={styles.title}>Our Comunity</h1>
                     <p className={styles.text}>
                         Archtivate Tribe is an idea hub where members can access exclusive resources and 
                         information, such as industry news, case studies, and best practices. 
