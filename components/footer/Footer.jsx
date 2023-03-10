@@ -1,5 +1,5 @@
 import styles from "../../styles/HomePage/Footer/FootStyles.module.scss" 
-import Logo from "../../public/archtivate.png"
+import Logo from "../../public/archtivate-removebg-preview.png"
 import Image from "next/image"
 
 import FacebookIcon from '@mui/icons-material/Facebook';
