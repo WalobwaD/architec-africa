@@ -6,12 +6,9 @@ const Series = ()=> {
                 <div className={styles.content}>
                     <h1 className={styles.title}>Vernacular Architecture</h1>
                     <p className={styles.text}>
-                        The community is a dedicated space where members can access exclusive resources and 
-                        information, such as industry news, case studies, and best practices. 
-                        Members can also participate in discussions and forums, 
-                        where they can share their experiences and insights with other professionals. 
-                        Additionally, the community provides opportunities for members to network and 
-                        build relationships with other architects, designers, and industry experts.
+                    Discover and experience the beauty of africas most stunning locations in a whole new way 
+                    through the lens of our scenic videos. Let our series take you on an immersive journey through 
+                    the breathtaking landscapes, serene nature and stunning architecture at the comfort of your own home.
                     </p>
                     <div className={styles.link}>
                         <p>Learn More</p>
